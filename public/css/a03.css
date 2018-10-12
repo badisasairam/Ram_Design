@@ -1,0 +1,174 @@
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+.container {
+  width: 100vw;
+}
+
+.gameboard {
+  font-size: 10em;
+  width: 610px;
+  text-align: center;
+  display:none;
+  margin: 0 auto;
+}
+
+.playerSelect {
+
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 25px;
+}
+
+.gameboard .box {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.status {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.top {
+  border-bottom: 4px solid black;
+}
+
+.bottom {
+  border-top: 4px solid black;
+}
+
+.left {
+  border-right: 4px solid black;
+}
+
+.right {
+  border-left: 4px solid rgb(156, 34, 34);
+} body {
+  
+  text-align: center;
+  width: 100%;
+  background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/EE2KZGk0lim8pt4em/white-glitter-background-seamless-loop-winter-theme-on-green-background-look-like-snow-computer-generated_rafkpeb4__F0000.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body h1 {
+  font-family: 'Acme', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.lastResult {
+  color: white;
+}
+
+.reset {
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 766px) {
+
+  p {
+    text-align: justify;
+  }
+  
+}
+
+@media screen and (max-width: 460px) {
+  
+  body {
+    padding-top: 0px;
+  }
+  
+  #message {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .guessSubmit {
+    margin-top: 20px;
+  }
+  
+}
+body
+{
+	
+	background-color:powderblue;
+}
+header{
+background-color:rgb(13, 233, 167);
+border:0.5px solid rgb(10, 143, 196);
+font-size: 13px;
+text-align:center;
+font-family: 'Lucida Sans';
+
+}
+footer{
+background-color:yellowgreen;
+font-style: italic;
+text-align:center;
+font-size: 17px;
+}
+article{
+background-color:rgba(141, 81, 20, 0.925);	
+}
+
+
+#past-section{
+	/* float: left; */
+background-color: #aa7878 ;
+}
+
+
+
+#present-section{
+	background-color: 	rgb(143, 155, 206);
+	/* float: left; */
+	/* width: 700px; */
+}
+#future-section{
+	background-color: 	rgb(100, 187, 78);
+}
+#hobby-header{
+	background-color: 	rgb(189, 174, 40);
+}
+table, th, td {
+	
+    border: 1px solid black;
+	border-collapse:collapse;
+	background-color: rgb(204, 138, 51);
+}
+
+#img{
+	float: right;
+	margin-top: 1%;
+	margin-right: 5%;
+	border-radius: 50%;
+}
+
+#video{
+	position: absolute;
+    left: 60rem;
+    top: 53%;
+}
+.one{
+	text-align: center;
+}

@@ -1,0 +1,38 @@
+<% include header %>
+
+<div class ="container-fluid">
+<div class = "col-md-3">
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Enter Full Name</label>
+        <input type="Text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+        
+        <br> Gender: <br>
+        <input type="radio" name = "gender" value = "male" checked> male &emsp;
+        <input type="radio" name = "gender" value = "Female"> Female <br>
+        <br>E-mail: <input type="email" class="form-control" name="user_email" placeholder="Enter Email id">
+    </div>
+ 
+</div>
+    <div class = "col-md-4">
+    <div class="form-group">
+        <label for="exampleInputPassword1">Any Questions</label>
+        <textarea rows="6" cols="10" class="form-control" id="exampleInputPassword1" placeholder="Text"> </textarea>
+        
+    </div>
+</div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    
+    <button type="submit" class="btn btn-primary" onclick="alert('Your Response has been recorded')">Submit</button>
+</form>
+</div>
+<div class = "one">
+    <h5><a href="https://www.linkedin.com/in/sairam-badisa-614324148/">My Linkedin Profile <img src ="images/linkendin.png" width = "50" height = "50"></a></h5>
+    <h5><a href="https://www.facebook.com/sairambadisa">My Fb Profile <img src = "images/fb.jpg" width = "50" height = "50"></a></h5>
+    <h5><a href="https://bitbucket.org/sairambadisa9/">My BitBucket page <img src = "images/bitbucket.jpg" width = "50" height = "50"></a></h5>
+    <h5><a href="https://github.com/badisasairam">My GitHub page <img src = "images/github.png" width = "50" height = "50"></a></h5>
+</div>
+<% include footer %>

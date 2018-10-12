@@ -1,0 +1,24 @@
+
+<% include header %>
+
+    
+    <div class="container">
+      <h1 class="text-center">Guess The Number!</h1>
+      <p>Let's play a game... System have randomly generated a number between 1 and 50.</p>
+      <p>
+        Give a guess and system returns whether it's high or low. If you guess the correct number in 10 turns or less, you win!
+      </p> 
+
+      <div class="form text-center">
+        <label for="guessField" id="message">Enter a guess: </label> <input type="text" id="guessField" class="guessField"> <input type="submit" value="Submit Guess" class="guessSubmit"> 
+      </div>
+      <div class="resultParas">
+        <p class="guesses text-center"></p>
+        <p class="lastResult text-center"></p>
+        <p class="lowOrHi text-center"></p>
+      </div>
+      <div class="text-center" id="reset"></div>
+    </div>
+  
+<% include footer %>
+    
